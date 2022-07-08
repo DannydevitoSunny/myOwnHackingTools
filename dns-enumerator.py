@@ -9,6 +9,8 @@ import shutil
 import sys
 from yaml import parse
 
+## -------------LINUX ONLY
+
 hosts_file = "/etc/hosts"
 old_name = "/etc/hosts_old.txt"
 newName = "/etc/hosts"
